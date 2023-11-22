@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Вгадай комірку</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            border: 1px solid black;
+            cursor: pointer;
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <h2>Практичне заняття</h2>
+    <h4>Потрібно вгадати 10 комірок.</h4>
+    <p>Кількість спроб: <span id="clicks">0</span></p>
+    <p>Залишилося вгадати: <span id="remaining">10</span></p>
+    <table id="field"></table>
+    <script src="script.js"></script>
+</body>
+</html>
